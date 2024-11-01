@@ -38,6 +38,7 @@ public class BankAccount {
         return balance;
     }
 
+    // made private so that people can't set their own balance
     private void setBalance(long balance) {
         this.balance = balance;
     }
@@ -46,6 +47,7 @@ public class BankAccount {
         return minimumBalance;
     }
 
+    // made private so that people can't set their own minimum balance
     private void setMinimumBalance(long minimumBalance) {
         this.minimumBalance = minimumBalance;
     }
@@ -54,6 +56,7 @@ public class BankAccount {
         return accountHolderName;
     }
 
+    // made private so that people can't change their own name
     private void setAccountHolderName(String accountHolderName) {
         this.accountHolderName = accountHolderName;
     }

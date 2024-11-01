@@ -3,8 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-//import static org.hamcrest.Matchers.closeTo;
-//import static org.hamcrest.MatcherAssert.*;
+// Test file for bank account
 public class BankAccountTests {
     // deposit tests
     @Test
@@ -15,6 +14,7 @@ public class BankAccountTests {
 
     }
 
+    // deposit tests
     @Test
     public void testDepositOfANegativeAmount(){
         BankAccount b1 = new BankAccount(1000, 0, "Jane Doe");
