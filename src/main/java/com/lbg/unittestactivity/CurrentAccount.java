@@ -8,8 +8,6 @@ public class CurrentAccount extends BankAccount{
     private long overdraft;
     private long maxWithdrawAmount;
 
-    private long availableBalance;
-
 
     // constructor including super constructor to pull parameters from super class BankAccount
     public CurrentAccount(double inputBalance, double inputMinimumBalance, String accountHolderName, double overdraft, double maxWithdrawAmount) {
@@ -19,15 +17,26 @@ public class CurrentAccount extends BankAccount{
     }
 
     // methods
+
+    // to get a total available balance to include overdraft
     public double getAvailableBalance(){
         return getBalanceAsDouble() + (double) overdraft / 100;
     }
 
 
+    // override method from BankAccount class to include available balance of input balance plus overdraft
     @Override
-    public void withdraw(double inputWithdrawAmount) {
-        super.withdraw(inputWithdrawAmount);
+    public void withdraw(double inputWithdrawAmount){
+        long withdrawAmount = (long) (inputWithdrawAmount * 100);
+        long availableBalance = (long) (getAvailableBalance() * 100);
+        if ((withdrawAmount<= availableBalance) && (withdrawAmount <= maxWithdrawAmount)){
+            long newBalance = this.getBalance() - withdrawAmount;
+            this.setBalance(newBalance);
+        }
+
     }
+
+
 
     // getters and setters
     public long getOverdraft() {

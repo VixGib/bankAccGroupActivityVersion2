@@ -56,7 +56,7 @@ public class BankAccount {
     }
 
     // made private so that people can't set their own balance
-    private void setBalance(long balance) {
+    protected void setBalance(long balance) {
         this.balance = balance;
     }
 
