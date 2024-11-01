@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e229d5ac-b40c-4a48-b036-9c4a72a588bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/unittestactivity/CurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lbg/unittestactivity/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lbg/unittestactivity/CurrentAccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lbg/unittestactivity/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbg/unittestactivity/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lbg/unittestactivity/BankAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lbg/unittestactivity/BankAccountTests.java" afterDir="false" />
     </list>
@@ -13,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +43,96 @@
     "last_opened_file_path": "C:/code/bankAccGroupActivityVersion2"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CurrentAccountTests.testDepositOfAPositiveAmountToIncludeOverdraftAmountInAvailableBalance">
+    <configuration name="BankAccountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VickiJoeGeorgeBankPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbg.unittestactivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lbg.unittestactivity" />
+      <option name="MAIN_CLASS_NAME" value="com.lbg.unittestactivity.BankAccountTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTests.testDepositDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VickiJoeGeorgeBankPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbg.unittestactivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lbg.unittestactivity" />
+      <option name="MAIN_CLASS_NAME" value="com.lbg.unittestactivity.BankAccountTests" />
+      <option name="METHOD_NAME" value="testDepositDouble" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTests.testWithdrawDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VickiJoeGeorgeBankPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbg.unittestactivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lbg.unittestactivity" />
+      <option name="MAIN_CLASS_NAME" value="com.lbg.unittestactivity.BankAccountTests" />
+      <option name="METHOD_NAME" value="testWithdrawDouble" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrentAccountTests.testDepositOfAPositiveAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VickiJoeGeorgeBankPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbg.unittestactivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lbg.unittestactivity" />
+      <option name="MAIN_CLASS_NAME" value="com.lbg.unittestactivity.CurrentAccountTests" />
+      <option name="METHOD_NAME" value="testDepositOfAPositiveAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrentAccountTests.testDepositOfAPositiveAmountToIncludeOverdraftAmountInAvailableBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VickiJoeGeorgeBankPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbg.unittestactivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lbg.unittestactivity" />
+      <option name="MAIN_CLASS_NAME" value="com.lbg.unittestactivity.CurrentAccountTests" />
+      <option name="METHOD_NAME" value="testDepositOfAPositiveAmountToIncludeOverdraftAmountInAvailableBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CurrentAccountTests.testDepositOfAPositiveAmountToIncludeOverdraftAmountInAvailableBalance" />
+        <item itemvalue="JUnit.CurrentAccountTests.testDepositOfAPositiveAmount" />
+        <item itemvalue="JUnit.BankAccountTests.testWithdrawDouble" />
+        <item itemvalue="JUnit.BankAccountTests.testDepositDouble" />
+        <item itemvalue="JUnit.BankAccountTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
